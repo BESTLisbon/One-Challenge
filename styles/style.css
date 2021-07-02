@@ -1,0 +1,373 @@
+/*
+* @author    BEST Lisbon http://best.tecnico.ulisboa.pt/
+* @copyright BEST Lisbon 2020. All rights reserved.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+
+img.sizes {
+    padding:2px;
+   }
+   
+   @media screen and (min-width: 751px) {
+     img.sizes {
+       height:140px
+     }
+   }
+   
+   @media screen and (max-width: 750px) {
+     img.sizes {
+       height: 60px;
+     }
+   }
+
+div.size1 {
+   padding:2px;
+  }
+  
+  @media screen and (min-width: 401px) {
+    div.size1 {
+      font-size: 3.5vw;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    div.size1 {
+      font-size: 1.8vh;
+    }
+  }
+
+  div.size2 {
+    padding:0px;
+   }
+   
+   @media screen and (min-width: 601px) {
+     div.size2 {
+       font-size: 2vw;
+     }
+   }
+   
+   @media screen and (max-width: 600px) {
+     div.size2 {
+       font-size: 1.5vh;
+     }
+   }
+
+
+
+
+   .flex {
+    padding:0px;
+   }
+   
+   @media screen and (min-width: 601px) {
+     .flex {
+        flex-direction: row;
+     }
+   }
+   
+   @media screen and (max-width: 600px) {
+     .flex {
+        flex-direction: column;
+     }
+   }
+ 
+
+
+
+body {
+    overflow-x: hidden;
+}
+
+.cover-img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100px;
+}
+
+#countdown {
+    background-color: #011526;
+    color: white;
+}
+
+#countdown #days, #countdown #hours, #countdown #minutes, #countdown #seconds {
+    font-size: 5rem;
+}
+
+#countdown .row-css {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+#countdown .sign-up {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+}
+
+#countdown .btn-primary {
+    background-color: rgb(217, 168, 126) !important;
+    border-color: rgb(217, 168, 126) !important;
+    color: #000000;
+}
+
+#countdown .btn-primary:hover {
+    background-color: #935b2b !important;
+    border-color: #935b2b !important;
+    color: #000000;
+}
+
+.progressivo {
+    background: -webkit-linear-gradient(-225, white, #007177);
+    background: linear-gradient(315deg, white, #007177);
+}
+
+.logos {
+    padding: 5%;
+}
+
+.bullet {
+    padding-left: 1em;
+    text-indent: -.7em;
+    content: "• ";
+    color: #D9A87E;
+}
+
+.gradi {
+    background-image: -webkit-linear-gradient(45deg, #fff 50%, #1a6b75 0);
+    
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-plus {
+    color: #000000;
+    /*color: #000000;
+      font-size: 20px;*/
+}
+
+.box {
+    margin-top: 110px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.branco {
+    color: rgb(255, 255, 255);
+}
+
+.center {
+    padding-top: 200px;
+    text-align: center;
+}
+
+#main {
+    background: url('../images/buildings.jpg') no-repeat center center / cover;
+    /*padding: 90px;*/
+    padding-bottom: 300px;
+    /*(topo, direita, baixo, esquerda)*/
+}
+
+.color-transparent {
+    background-color: transparent !important;
+}
+
+#main .cover-card {
+    background-color: rgba(237, 234, 224, 0.9);
+}
+
+/*.margem {
+    margin-bottom: 2%;
+}*/
+
+/*.pergunta {
+    position: absolute;
+    left: 50%;
+}*/
+
+.faq {
+    color: #D9A87E;
+    text-align: center;
+}
+
+/*.schedule {
+    margin-top: 90px;
+}*/
+
+#best-schedule:hover {
+    color: #D9A87E;
+    transition: 0.2s;
+}
+
+.color {
+    color: #D9A87E;
+}
+
+.color1 {
+    color: #D9A87E;
+    transition: 0.2s;
+}
+
+
+.faqs {
+    background-color: rgb(255, 255, 255);
+    font-size: medium;
+    border: 0px;
+}
+
+.faq-title {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+/** quando rato passa por cima**/
+
+.faq-title:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-nav {
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+#slideshow .carousel-inner .carousel-item .img-parent {
+    filter: brightness(30%);
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;
+}
+
+#slideshow {
+    margin-top: 75px;
+}
+
+.green {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+svg {
+    margin-top: -3%;
+}
+
+.grey {
+    background-color: #e4e0e0;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+    to {
+        -webkit-transform: scale(1.5, 1.5);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+    #slideshow .carousel-inner {
+        max-height: 1000px;
+    }
+}
+
+@media (max-width: 576px) {
+    footer .social-media {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 0.75rem !important;
+    }
+    footer .text-contact {
+        margin-bottom: 0rem !important;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+    #slideshow .carousel-inner {
+        max-height: 900px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+    #slideshow .carousel-inner {
+        max-height: 700px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+    #slideshow .carousel-inner {
+        max-height: 600px;
+    }
+    #slideshow .carousel-inner .carousel-item>img {
+        margin-top: -15%;
+    }
+}
+
+
+
+
+.icon {
+    padding:0px;
+   }
+   
+   @media screen and (max-width: 601px) {
+     .icon {
+       margin:25px;
+     }
+   }
+   
+  
+
+ 
+   .responsive {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 400px;
+  }
